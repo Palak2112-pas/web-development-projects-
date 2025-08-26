@@ -1,4 +1,4 @@
-/* General body styling */
+
 body {
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@ body {
   background: #f3f3f3;
 }
 
-/* Weather card */
+
 .weather-card {
   width: 280px;
   background: #a8d641;
@@ -20,7 +20,7 @@ body {
   color: #333;
 }
 
-/* Search bar */
+
 .searchbox {
   display: flex;
   width: 100%;
@@ -58,13 +58,11 @@ body {
     width:10px;
 }
 
-/* Weather icon */
 .weather-icon {
   font-size: 50px;
   margin: 10px 0 20px;
 }
 
-/* Temperature and city */
 .temperature {
   font-size: 28px;
   font-weight: bold;
@@ -75,7 +73,6 @@ body {
   margin-bottom: 15px;
 }
 
-/* Extra details */
 .details {
   display: flex;
   justify-content: space-between;
@@ -93,5 +90,6 @@ margin-left: 10px;
 font-size: 14px;
 margin-top: 10px;
 display: none;
+
 
 }
